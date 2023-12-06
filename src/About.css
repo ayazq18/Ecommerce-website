@@ -1,0 +1,137 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.product{
+  position: relative;
+  bottom: 600px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    max-width:90vw;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    min-height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin: 20px;
+}
+
+.search-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.search-section input{
+  position: relative;
+  bottom: 160px;
+  left: 350px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+/* .cart{
+  position: relative;
+  bottom: 160px;
+  left: 350px;
+}
+
+.cart h5{
+ background-color: black;
+ border-radius: 50%;
+ height: 20px;
+ width: 20px;
+ text-align: center;
+ position: relative;
+ left: 35px;
+ bottom: 45px;
+ color: red;
+}
+
+.cart-icon{
+ font-size: 30px;
+ background: none;
+ border: none;
+} */
+
+.card img{
+  position: absolute;
+  top: 0px;
+  margin: 10px;
+    width: 150px;
+    max-height: 200px;
+}
+
+.card h3{
+  /* width: 300px; */
+  height: 30px;
+  position: absolute;
+  top: 240px;
+  margin: 10px;
+    font-size: 20px;
+    text-align: start;
+    text-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.price-category{
+  position: absolute;
+  top: 350px;
+  margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.price-category p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card .addToCart{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.addToCart:hover{
+  bottom: 1px;
+  border: 2px solid #007188;
+  background-color: white;
+  color: black;
+}
+.description{
+  position: absolute;
+  top: 300px;
+  margin: 0px 10px;
+    height: 40px;
+    text-wrap: wrap;
+    text-overflow: ellipsis;
+    /* overflow-x:hidden; */
+    overflow-y: hidden;
+}
